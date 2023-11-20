@@ -1,0 +1,62 @@
+#game {
+    width: 800px;
+    height: 800px;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px; /* Add border radius */
+    border: 2px solid black; /* Add black border */
+}
+
+#target {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#score span {
+    font-weight: bold;
+}
+
+#timer {
+    position: absolute;
+    top: 10px;
+    left: 50%; /* Center the timer */
+    transform: translateX(-50%);
+}
+
+#timer span {
+    font-weight: bold;
+}
+
+#highScore {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Move the high score to the right side */
+}
+
+#highScore span {
+    font-weight: bold;
+}
+
+.game-over-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
